@@ -73,7 +73,7 @@ import fi.nationallibrary.ndl.solrvoikko2.VoikkoFilter.CompoundToken;
       
       tests.add(new java.util.AbstractMap.SimpleEntry<String, String>(
           "kyminsanomat",
-          "kyminsanoma [1:0:12],kymi [0:0:12],sanoma [1:0:12]"
+          "kyminsanoma [1:0:12],kymin [0:0:12],sanoma [1:0:12],sano [0:0:12],ma [1:0:12]"
       ));
       
       tests.add(new java.util.AbstractMap.SimpleEntry<String, String>(
@@ -94,11 +94,11 @@ import fi.nationallibrary.ndl.solrvoikko2.VoikkoFilter.CompoundToken;
       ));
       tests.add(new java.util.AbstractMap.SimpleEntry<String, String>(
           "hyvinvointiasiantuntijajärjestelmässä",
-          "hyvinvointiasiantuntijajärjestelmä [1:0:37],hyvinvointi [0:0:37],asia [1:0:37],tuntija [1:0:37],järjestelmä [1:0:37]"
+          "hyvinvointiasiantuntijajärjestelmä [1:0:37],hyvinvointi [0:0:37],asian [1:0:37],tuntija [1:0:37],järjestelmä [1:0:37]"
       ));
       tests.add(new java.util.AbstractMap.SimpleEntry<String, String>(
           "kahdeksankulmainen",
-          "kahdeksankulmainen [1:0:18],kahdeksan [0:0:18],kahdeksa [0:0:18],kulmainen [1:0:18]"
+          "kahdeksankulmainen [1:0:18],kahdeksan [0:0:18],kulmainen [1:0:18]"
       ));
       tests.add(new java.util.AbstractMap.SimpleEntry<String, String>(
           "perinteinen puutarhakaluste",
