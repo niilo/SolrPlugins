@@ -4,7 +4,7 @@
 
   <groupId>fi.nationallibrary.ndl</groupId>
   <artifactId>solrvoikko2</artifactId>
-  <version>2.3.0-SOLR-6.0.1-SNAPSHOT</version>
+  <version>4.0.1-SOLR-6.4.1</version>
   <packaging>jar</packaging>
 
   <name>solrvoikko</name>
@@ -29,7 +29,7 @@
     <dependency>
     	<groupId>org.apache.solr</groupId>
     	<artifactId>solr-core</artifactId>
-    	<version>6.3.0</version>
+    	<version>6.4.1</version>
     </dependency>
     <dependency>
     	<groupId>javax.servlet</groupId>
