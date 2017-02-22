@@ -6,4 +6,3 @@ RUN echo "deb http://http.us.debian.org/debian testing main non-free contrib" >>
 RUN mkdir /etc/voikko && cd /etc/voikko && \
     wget http://www.puimula.org/htp/testing/voikko-snapshot-v5/dict-morphoid.zip && \
     unzip dict-morphoid.zip && rm dict-morphoid.zip
-RUN mvn clean package
